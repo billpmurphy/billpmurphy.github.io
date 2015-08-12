@@ -5,11 +5,11 @@ permalink:           pretty
 relative_permalinks: true
 
 # Setup
-title:               Poole
-tagline:             The Jekyll Butler
-url:                 http://getpoole.com
+title:               Bill Murphy
+tagline:             'Data Science, Machine Learning, Programming Languages, and Finance'
+url:                 http://billpmurphy.github.io
+shorturl:            billpmurphy.github.io
 paginate:            1
-baseurl:             ""
 
 # Assets
 #
@@ -20,11 +20,15 @@ sass:
 
 # About/contact
 author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  name:              Bill Murphy
+  url:               https://github.com/billpmurphy
+  email:             billpmurphy92@gmail.com
 
 # Custom vars
-version:             2.0.0
+version:             1.0.0
 github:
-  repo:              https://github.com/poole/poole
+  repo:              https://github.com/billpmurphy/billpmurphy.github.io
+
+pages_list:
+  Blog: '/blog/'
+  Archive: '/archive/'
