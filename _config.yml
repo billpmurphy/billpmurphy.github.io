@@ -30,5 +30,5 @@ github:
   repo:              https://github.com/billpmurphy/billpmurphy.github.io
 
 pages_list:
-  Blog: '/archive/'
+  Blog: '/blog/'
   Feed: '/atom.xml'
