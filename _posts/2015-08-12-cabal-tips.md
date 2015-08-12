@@ -1,7 +1,7 @@
-----
+---
 layout: post
 title: Cabal tips
-----
+---
 
 Haskell's [Cabal](https://www.haskell.org/cabal/) is notoriously hard to use,
 and has a lot of hidden features that are not featured prominently in the
