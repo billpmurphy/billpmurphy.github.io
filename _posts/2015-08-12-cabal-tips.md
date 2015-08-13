@@ -23,6 +23,7 @@ cabal init<br>
 cabal configure<br>
 </code>
 
+----
 
 **Getting help**
 
@@ -30,6 +31,7 @@ Getting help for cabal options is somewhat tedious. To view all of the
 available cabal commends, use `cabal -h`. To view the available flags for each
 option, use `cabal <command> -h`, e.g. `cabal build -h`.
 
+----
 
 **Building your application and using the Cabal REPL**
 
@@ -47,6 +49,8 @@ REPL, with no wasted time to reopen GHCi.
 
 To load a particular library, you can use `cabal repl <filename>`.
 
+
+----
 
 **When you get stuck in dependency hell**
 
