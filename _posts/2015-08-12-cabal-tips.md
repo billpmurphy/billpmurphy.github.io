@@ -18,7 +18,7 @@ init`. This will create a new sandbox in `.cabal-sandbox`.
 
 To create a cabal file and configure your project:
 
-<code>
+<code><br>
 cabal init<br>
 cabal configure<br>
 </code>
@@ -53,7 +53,7 @@ To load a particular library, you can use `cabal repl <filename>`.
 First, clean up any object/executable files. Second, delete the current sandbox
 and packages installed in your profile.
 
-<code>
+<code><br>
 cabal clean<br>
 cabal sandbox delete<br>
 rm -rf ~/.ghc ~/.cabal/<br>
@@ -61,7 +61,7 @@ rm -rf ~/.ghc ~/.cabal/<br>
 
 Next, re-create your sandbox and install the dependencies.
 
-<code>
+<code><br>
 cabal sandbox init<br>
 cabal update<br>
 <br>
@@ -71,6 +71,6 @@ cabal install --only-dependencies --enable-tests<br>
 
 Now you can rebuild your project:
 
-<code>
+<code><br>
 cabal build -v3
 </code>
