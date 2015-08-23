@@ -23,7 +23,8 @@ You actually can’t do this in Haskell! The type system (rightly) realizes you
 are constructing an infinite type, so you need to use a newtype wrapper to make
 it work.
 
-```haskell
+
+```
 ghci> (\f-> (\x -> f (x x)) (\x-> f (x x)))
 
 <interactive>:3:19:
@@ -43,6 +44,7 @@ ghci> (\f-> (\x -> f (x x)) (\x-> f (x x)))
 
 As it turns out, there are even _more_ ways to abuse Python's type system. For
 starters, there is a much easier way to create a value with an infinite type:
+
 
 ```python
  >>> x = (lambda: x)
