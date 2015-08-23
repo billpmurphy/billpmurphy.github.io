@@ -31,14 +31,13 @@ ghci> (\f-> (\x -> f (x x)) (\x-> f (x x)))
 As it turns out, there are even more ways to abuse Python's type system. For
 starters, there is a much easier way to create a value with an infinite type:
 
-
 ```
- >>> x = (lambda: x)
- >>> x()
- <function <lambda> at 0x1005c36e0>
+>>> x = (lambda: x)
+>>> x()
+<function <lambda> at 0x1005c36e0>
 
- >>> x
- <function <lambda> at 0x1005c36e0>
+>>> x
+<function <lambda> at 0x1005c36e0>
 ```
 
 Unlike the Y combinator, you can't really do anything with this value, though.
