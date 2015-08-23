@@ -24,7 +24,7 @@ are constructing an infinite type, so you need to use a newtype wrapper to make
 it work.
 
 
-```haskell
+```
 ghci> (\f-> (\x -> f (x x)) (\x-> f (x x)))
 ```
 
