@@ -4,7 +4,7 @@ title: Abusing Python's type system
 ---
 
 I remember being impressed by the fact that the [Y
-combinator](https://en.wikipedia.org/wiki/Fixed-point_combinator#Fixed_point_combinators_in_lambda_calculus)
+Combinator](https://en.wikipedia.org/wiki/Fixed-point_combinator#Fixed_point_combinators_in_lambda_calculus)
 can be defined recursively as `Y = f (Y f)` in Haskell, but after some
 experimentation I realized that you can do the exact same thing in Python:
 
@@ -24,25 +24,11 @@ are constructing an infinite type, so you need to use a newtype wrapper to make
 it work.
 
 
-```
+```haskell
 ghci> (\f-> (\x -> f (x x)) (\x-> f (x x)))
-
-<interactive>:3:19:
-    Occurs check: cannot construct the infinite type: t1 = t1 -> t0
-    Expected type: t1 -> t0
-        Actual type: (t1 -> t0) -> t0
-    In the first argument of `x', namely `x'
-    In the first argument of `f', namely `(x x)'
-    In the expression: f (x x)
-
-<interactive>:3:34:
-    Occurs check: cannot construct the infinite type: t1 = t1 -> t0
-    In the first argument of `x', namely `x'
-    In the first argument of `f', namely `(x x)'
-    In the expression: f (x x)
 ```
 
-As it turns out, there are even _more_ ways to abuse Python's type system. For
+As it turns out, there are even more ways to abuse Python's type system. For
 starters, there is a much easier way to create a value with an infinite type:
 
 
