@@ -57,24 +57,24 @@ To load a particular library, you can use `cabal repl <filename>`.
 First, clean up any object/executable files. Second, delete the current sandbox
 and packages installed in your profile.
 
-<code><br>
+<code>
 cabal clean<br>
 cabal sandbox delete<br>
-rm -rf ~/.ghc ~/.cabal/<br>
+rm -rf ~/.ghc ~/.cabal/
 </code>
 
 Next, re-create your sandbox and install the dependencies.
 
-<code><br>
+<code>
 cabal sandbox init<br>
 cabal update<br>
 <br>
 cabal configure --enable-tests<br>
-cabal install --only-dependencies --enable-tests<br>
+cabal install --only-dependencies --enable-tests
 </code>
 
 Now you can rebuild your project:
 
-<code><br>
+<code>
 cabal build -v3
 </code>
