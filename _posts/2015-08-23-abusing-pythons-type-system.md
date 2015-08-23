@@ -25,22 +25,22 @@ As it turns out, there are even more ways to abuse Python's type system. For
 starters, there is a much easier way to create a value with an infinite type:
 
 
-<code>
+<code><br>
 >>> x = (lambda: x)<br>
 >>> x()<br>
-<function <lambda> at 0x1005c36e0><br>
+\<function \<lambda\> at 0x1005c36e0\><br>
 <br>
 >>> x<br>
-<function <lambda> at 0x1005c36e0><br>
+\<function \<lambda\> at 0x1005c36e0\><br>
 </code>
 
 Unlike the Y combinator, you can't really do anything with this value, though.
 
 Alternatively, you can use a generator:
 
-<code>
+<code><br>
 def f():<br>
-&nbsp;yield f<br>
+&nbsp;&nbsp;yield f<br>
 <br>
 >>> f()<br>
 <function f at 0x1007c36e0>
@@ -49,7 +49,7 @@ def f():<br>
 The object system has some similar holes. For example, you can make a class
 it's own metaclass:
 
-<code>
+<code><br>
 >>> import abc<br>
 >>> class A(abc.ABCMeta): pass<br>
 <br>
@@ -60,7 +60,7 @@ it's own metaclass:
 
 But wait, it gets even better:
 
-<code>
+<code><br>
 >>> class A(abc.ABCMeta): pass<br>
 >>> class B(abc.ABCMeta): pass<br>
 <br>
