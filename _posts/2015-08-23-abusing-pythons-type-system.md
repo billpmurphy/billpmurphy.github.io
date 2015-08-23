@@ -60,12 +60,13 @@ it's own metaclass:
 
 But wait, it gets even better:
 
-<p><code>>>> class A(abc.ABCMeta): pass<br>
+<pre><code>
+>>> class A(abc.ABCMeta): pass<br>
 >>> class B(abc.ABCMeta): pass<br>
 <br>
 >>> A.__metaclass__ = B<br>
 >>> B.__metaclass__ = A
-</code></p>
+</code></pre>
 
 I thought long and hard about how these tricks might be useful when I made
 [Hask](https://github.com/billpmurphy/hask), but I still can't think of
