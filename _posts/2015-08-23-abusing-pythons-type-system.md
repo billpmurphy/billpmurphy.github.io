@@ -28,10 +28,10 @@ starters, there is a much easier way to create a value with an infinite type:
 <code><br>
 >>> x = (lambda: x)<br>
 >>> x()<br>
-\<function \<lambda\> at 0x1005c36e0\><br>
+<function <lambda> at 0x1005c36e0><br>
 <br>
 >>> x<br>
-\<function \<lambda\> at 0x1005c36e0\><br>
+<function <lambda> at 0x1005c36e0><br>
 </code>
 
 Unlike the Y combinator, you can't really do anything with this value, though.
