@@ -18,6 +18,8 @@ sass:
   sass_dir:          _sass
   style:            :compressed
 
+markdown:            redcarpet
+
 # About/contact
 author:
   name:              Bill Murphy

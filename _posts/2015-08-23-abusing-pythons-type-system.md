@@ -60,13 +60,13 @@ it's own metaclass:
 
 But wait, it gets even better:
 
-<pre><code>
->>> class A(abc.ABCMeta): pass<br>
->>> class B(abc.ABCMeta): pass<br>
-<br>
->>> A.__metaclass__ = B<br>
+{% highlight python %}
+>>> class A(abc.ABCMeta): pass
+>>> class B(abc.ABCMeta): pass
+
+>>> A.__metaclass__ = B<
 >>> B.__metaclass__ = A
-</code></pre>
+{% endhighlight %}
 
 I thought long and hard about how these tricks might be useful when I made
 [Hask](https://github.com/billpmurphy/hask), but I still can't think of
