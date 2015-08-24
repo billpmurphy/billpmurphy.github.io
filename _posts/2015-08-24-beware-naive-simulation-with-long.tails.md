@@ -88,7 +88,7 @@ calculation](https://rawgit.com/billpmurphy/billpmurphy.github.io/master/_assets
 Aha! As it turns out, The expected value doesn't actually converge, so
 simulating and trying to find the mean doesn't shed any light on the structure
 of the problem. In addition, the majority of the expected value comes from
-extremely unlikely outcomes __ad infinitum__, so simply adding more simulations
+extremely unlikely outcomes _ infinitum_, so simply adding more simulations
 didn't improve our accuracy.
 
 So what's the actual solution? How much should you be willing to play to pay
@@ -96,7 +96,7 @@ this game? Well...there isn't really an answer. This is the imfamous [St.
 Petersburg Paradox](https://en.wikipedia.org/wiki/St._Petersburg_paradox); it
 turns out that even brilliant mathematicians are confused by this one.
 
-The moral of this silly example is that you need to be __very careful__ using
+The moral of this silly example is that you need to be _very careful_ using
 Monte Carlo methods when you are dealing with long tail risks, especially if
 they are compounding or involve an infinite series. If most of your EV is in
 low-probability branches of your simulation, just running lots and lots of
@@ -106,5 +106,5 @@ solution.
 In practice, though, if anyone does offer you this game, you should remember
 that [your utility probably isn't linear in
 money](https://en.wikipedia.org/wiki/St._Petersburg_paradox#Expected_utility_theory)
-and consider the counterparty risk--can the casino __really__ pay out if you
+and consider the counterparty risk--can the casino _really_ pay out if you
 win big?
