@@ -76,14 +76,14 @@ This clearly isn't working. Instead, let's examine the problem in more detail.
 Here are the possible outcomes after 3 flips:
 
 ![tree
-diagram](https://raw.githubusercontent.com/billpmurphy/billpmurphy.github.io/master/_assets/tree1.png)
+diagram](https://rawgit.com/billpmurphy/billpmurphy.github.io/master/_assets/tree1.png)
 
 Using this, we can break down the problem into a series. With probability 1/2,
 we win $2. With probability 1/4, we win $4. With probability 1/8, we win $8. So
 the expected value can be computed as follows:
 
 ![EV
-calculation](https://raw.githubusercontent.com/billpmurphy/billpmurphy.github.io/master/_assets/EV_calc1.png)
+calculation](https://rawgit.com/billpmurphy/billpmurphy.github.io/master/_assets/EV_calc1.png)
 
 Aha! As it turns out, The expected value doesn't actually converge, so
 simulating and trying to find the mean doesn't shed any light on the structure
