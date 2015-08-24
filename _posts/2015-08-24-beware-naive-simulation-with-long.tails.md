@@ -33,7 +33,7 @@ def play_game(stake=2):
 Now let's run 100 of trials of 100,000 games each, and take the mean winnings
 of each trial.
 
-```
+```python
 import numpy as np
 import pandas as pd
 
@@ -88,7 +88,7 @@ calculation](https://rawgit.com/billpmurphy/billpmurphy.github.io/master/_assets
 Aha! As it turns out, The expected value doesn't actually converge, so
 simulating and trying to find the mean doesn't shed any light on the structure
 of the problem. In addition, the majority of the expected value comes from
-extremely unlikely outcomes _ infinitum_, so simply adding more simulations
+extremely unlikely outcomes _ad infinitum_, so simply adding more simulations
 didn't improve our accuracy.
 
 So what's the actual solution? How much should you be willing to play to pay
