@@ -57,8 +57,8 @@ max      1355.49450
 ```
 
 
-Uh-oh. Our estimates of the expected value of the game range from 10\*\*1 to
-10\*\*3. Maybe we need to run more tests? If we run 1000 trials of 100,000 games
+Uh-oh. Our estimates of the expected value of the game range from 10^1 to
+10^3. Maybe we need to run more tests? If we run 1000 trials of 100,000 games
 each, we get the following:
 
 ```

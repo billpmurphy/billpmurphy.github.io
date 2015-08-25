@@ -32,5 +32,7 @@ github:
   repo:              https://github.com/billpmurphy/billpmurphy.github.io
 
 pages_list:
-  Blog: '/blog/'
-  Feed: '/atom.xml'
+  CV:     '/resume.pdf'
+  GitHub: 'http://github.com/billpmurphy/'
+  Blog:   '/blog/'
+  Feed:   '/atom.xml'
