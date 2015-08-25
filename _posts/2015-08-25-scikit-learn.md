@@ -1,6 +1,6 @@
 ---
 layout: post
-title: scikit-learn: Which classifier is the most popular?
+title: Which scikit-learn classifier is the most popular?
 ---
 
 [scikit-learn](http://scikit-learn.org/stable/) is the most popular machine
