@@ -37,4 +37,3 @@ pages_list:
   CV:     '/resume.pdf'
   GitHub: 'http://github.com/billpmurphy/'
   Blog:   '/blog/'
-  Feed:   '/atom.xml'
