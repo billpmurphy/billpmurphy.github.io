@@ -1,2 +1,6 @@
+User-agent: googlebot
+User-agent: google
+Disallow: /resume.pdf
+
 User-agent: *
 Disallow: /
