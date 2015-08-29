@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Are all horoscopes the same? (an introduction to text mining)
+title: Are all horoscopes the same? (an intro to text mining)
 ---
 
 
@@ -84,7 +84,7 @@ word_count = data.full_text.map(lambda x: len(str(x).split(" ")))
 word_count.hist(bins=30, by=data["sign"])
 ```
 
-[!Figure
+![Figure
 1](https://rawgit.com/billpmurphy/billpmurphy.github.io/master/_assets/figure_1.png)
 
 As it turns out, the word count is pretty normally distributed and doesn't
