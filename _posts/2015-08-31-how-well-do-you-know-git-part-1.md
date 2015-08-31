@@ -9,7 +9,7 @@ excellent book [Pro Git](https://git-scm.com/book/en/v2) and turned them into
 quiz questions.
 
 This post covers basic Git (chapters 1, 2, and 3). If you can figure out most
-of these command without Googling, you should feel pretty good about your git
+of these command without Googling, you should feel pretty good about your Git
 skills! If you just want to use this as a reference, all the answers are at the bottom.
 
 
